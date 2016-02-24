@@ -13,7 +13,7 @@ function statusChangeCallback(response) {
   // for FB.getLoginStatus().
   if (response.status === 'connected') {
     // Logged into your app and Facebook.
-    FB.api('/me?fields=name,first_name,picture.width(480)', changeUser);
+    FB.api('/me?fields=name,first_name,picture.width(480)', changeUser); 
   }
 }
 
